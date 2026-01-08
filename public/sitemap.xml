@@ -1,18 +1,7 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.officialankit.online/sitemap.xml
-```
-
-5. **Save karo** (Ctrl + S)
-
----
-
-## 📂 Final Structure Check
-
-VS Code mein **public** folder kholo - ye structure hona chahiye:
-```
-public/
-├── sitemap.xml     ✅ Ye banaya
-├── robots.txt      ✅ Ye banaya
-└── vite.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://your-portfolio.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+</urlset>
