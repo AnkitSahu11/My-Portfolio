@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.officialankit.online/sitemap.xml
+```
+
+5. **Save karo** (Ctrl + S)
+
+---
+
+## 📂 Final Structure Check
+
+VS Code mein **public** folder kholo - ye structure hona chahiye:
+```
+public/
+├── sitemap.xml     ✅ Ye banaya
+├── robots.txt      ✅ Ye banaya
+└── vite.svg
